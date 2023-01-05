@@ -7,6 +7,8 @@ of those with a Bachelor's degree or higher.
 
 Built for the freeCodeCamp Data Visualization Certificate.
 
+A live build can be found [here](https://aaronishibashi.com/portfolio/web/d3-choropleth-map/).
+
 ## Build
 
 ```
