@@ -1,0 +1,28 @@
+{
+  "name": "us-map",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx stylus styles.styl --out dist && npx webpack --mode production",
+    "watch": "npx concurrently 'stylus styles.styl --out dist --watch' 'npx webpack --watch'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/d3": "^7.4.0",
+    "@webpack-cli/generators": "^3.0.1",
+    "concurrently": "^7.6.0",
+    "stylus": "^0.59.0",
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.4",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "@types/topojson": "^3.2.3",
+    "d3": "^7.8.0",
+    "topojson": "^3.0.2"
+  }
+}
